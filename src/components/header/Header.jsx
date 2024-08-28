@@ -33,7 +33,9 @@ const Header = () => {
             <header>
                 <Container>
                     <div className="flex items-center justify-between">
-                        <h1 className="text-3xl font-bold text-indigo-600">Weather App</h1>
+                        <h1 className={`text-3xl font-bold ${theme === 'dark' ? 'text-white' : 'text-indigo-600'}`}>
+                            Weather App
+                        </h1>
                         <form onSubmit={handleSearch} className="border bg-white border-gray-300 p-2 rounded-[30px] flex max-w-[600px] flex-1">
                             <input
                                 value={searchValue}
