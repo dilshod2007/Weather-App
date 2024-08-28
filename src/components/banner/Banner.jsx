@@ -42,10 +42,10 @@ const Banner = () => {
                                     </div>
                                     <div className='mt-[300px] ml-4'>
                                         <h1 className='text-white text-2xl font-bold'>
-                                            {new Date(data.current.last_updated).toLocaleTimeString()}
+                                            {new Date(data.location.localtime).toLocaleTimeString()}
                                         </h1>
                                         <h2 className='text-white text-lg'>
-                                            {new Date(data.current.last_updated).toLocaleDateString()}
+                                            {new Date(data.location.localtime).toLocaleDateString()}
                                         </h2>
                                     </div>
                                 </div>
