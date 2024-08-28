@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 
 const Banner = () => {
     const data = useSelector((state) => state.searchData);
+    console.log(data);
 
    
     return (
