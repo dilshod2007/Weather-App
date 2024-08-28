@@ -38,7 +38,7 @@ const Header = () => {
                         </h1>
                         <form onSubmit={handleSearch} className="border bg-white border-gray-300 p-2 rounded-[30px] flex max-w-[600px] flex-1">
                             <input
-                                value={searchValue}
+                                value={searchValue} placeholder="Search for a city..."c
                                 onChange={(e) => setSearchValue(e.target.value)}
                                 type="text"
                                 className="flex-1 outline-none border-none text-lg text-black"
